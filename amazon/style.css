@@ -1,0 +1,572 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+}
+.nav-logo{
+    height: 50px;
+    width: 114px;
+}
+.logo{
+    background-image: url(/amazon/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid rgba(255, 255, 255, 0.884);
+}
+.deliver{
+    height: 50px;
+    width: 90px;
+}
+#small{
+    color: #CCCCCC;
+    display: inline-block;
+    position: relative;
+    left: 15px;
+    top: 10px;
+    font-size: 14px;
+}
+#big{
+    color: #FFFFFF;
+    position: relative;
+    top: 9px;
+    left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+}
+i{
+    position: absolute;
+    top: 27px;
+}
+#nav-search{
+    width: 900px;
+    height: 60px;
+    display: flex;
+}
+#options{
+    width: 45px;
+    height: 38px;
+    align-self: center;
+    background-color: #F3F3F3;
+    color: #0F1111;
+    font-size: 14px;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+
+}
+.value{
+    background-color: white;
+}
+#search{
+    width: 790px;
+    height: 36px;
+    align-self: center; 
+    font-size: 16px;
+    border-radius: 0px;
+    border: none;
+}
+#s-icon{
+    width: 45px;
+    height: 38px;
+    background-color: rgb(255, 200, 0);
+    align-self: center; 
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.lang{
+    width: 73px;
+    height: 50px;
+    display: flex;
+}
+#lang-2{
+    width: 37.38px;
+    height: 16.8px;
+    display: inline;
+    position: relative;
+    left: 16px;
+    top: 9px;
+    align-self: center;
+    background-color: #0F1111;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.sign{
+    width: 131px;
+    height: 54px;
+}
+.acc{
+    background-color: #0F1111;
+    color: white;
+    border: none;
+    font-size:16px ;
+    font-weight: bold;
+    position: relative;
+    top: 13px;
+    right: 5px;
+
+}
+#hello{
+    font-size: 14px;
+    position: relative;
+    top: 15px;
+
+}
+.return{
+    width: 77px;
+    height: 50px;
+}
+#re{
+    font-size: 14px;
+    position: relative;
+    top: 15px;
+    left: 25px;
+
+}
+#order{
+    color: white;
+    border: none;
+    font-size:16px ;
+    font-weight: bold;
+    position: relative;
+    top: 13px;
+    left: 25px;
+}
+.cart{
+    width: 84px;
+    height: 50px;
+}
+.icon{
+    position: relative;
+    left: 25px;
+    top: 5px;
+}
+#text{
+    position: relative;
+    left: 60px;
+    top: 30px;
+    font-size: 14px;
+
+}
+.sm-navbar{
+    height: 39px;
+    background-color: #232F3E;
+    display: flex;
+}
+.bar{
+    width: 58px;
+
+}
+#sm-navbar-baricon{
+    position: relative;
+    bottom: 14px;
+    left: 15px;
+}
+#sm-navbar-all{
+    color: white;
+    position: relative;
+    left: 35px;
+    top: 12px;
+}
+.today{
+    width: 500px;
+    color: white;
+    position: relative;
+    top: 12px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#sm-navbar-diff{
+    display: inline;
+    align-self: center;
+}
+.elec{
+    position:relative;
+    color: white;
+    left: 730px;
+    top: 12px;
+    width: 180px;
+}
+.content{
+    height: 800px;
+    width: 1500px;
+    background-color: #F5F6F6;
+    background-image: url(/amazon/hero.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: flex; */
+    /* justify-content: center; */
+    position: relative;
+    left: 15px;
+}
+.white-bar{
+    background-color: #F5F6F6;
+    width: 1458px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 250px;
+    left: 20px;
+}
+.gaming{
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    position: relative;
+    left: 20px;
+    top: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.game-head{
+    position: relative;
+    right: 25px;
+}
+.game-see{
+    text-decoration: none;
+    position: relative;
+    right: 120px;
+    font-size: 12px;
+    color: #007185;
+}
+#headset{
+    background-image: url(/amazon/gaming/headsets.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    display: inline-block;
+    width: 50%;
+    height: 115px;
+    
+}
+#keyboards{
+    background-image: url(/amazon/gaming/keyboards.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    width: 50%;
+    height: 115px;    
+}
+#mice{
+    background-image: url(/amazon/gaming/mice.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+
+    width: 50%;
+    height: 115px;
+}
+#chair{
+    background-image: url(/amazon/gaming/chair.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+
+    width: 50%;
+    height: 115px;
+}
+.gaming-name{
+    position:relative ;
+    top: 110px;
+    font-size: 12px;
+    left: 10px;
+}
+.fashion{
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    position: relative;
+    left: 380px;
+    bottom: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fash-head{
+    position: relative;
+    right: 25px;
+}
+.fash-see{
+    text-decoration: none;
+    position: relative;
+    right: 120px;
+    font-size: 12px;
+    color: #007185;
+}
+#Jeans{
+    background-image: url(/amazon/fashion/jeans.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    display: inline-block;
+    width: 45%;
+    height: 115px;
+    
+}
+#Tops{
+    background-image: url(/amazon/fashion/tops.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+    width: 45%;
+    height: 115px;    
+}
+#dresses{
+    background-image: url(/amazon/fashion/dress.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+
+    width: 45%;
+    height: 115px;
+}
+#Shoes{
+    background-image: url(/amazon/fashion/shoes.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* display: inline-block; */
+
+    width: 45%;
+    height: 115px;
+}
+.fash-name{
+    position:relative ;
+    top: 90px;
+    font-size: 14px;
+    /* left: 10px; */
+}
+.spaces{
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    position: relative;
+    left: 745px;
+    bottom: 560px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.space-head{
+    position: relative;
+    left: 8px;
+}
+.space-see{
+    text-decoration: none;
+    position: relative;
+    right: 95px;
+    font-size: 12px;
+    color: #007185;
+}
+#baskets{
+    background-image: url(/amazon/space/baskets.jpg);
+    background-size: contain;
+    background-repeat: no-repeat; 
+    width: 45%;
+    height: 115px;
+    
+}
+#hardware{
+    background-image: url(/amazon/space/hardware.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 115px;    
+}
+#accent{
+    background-image: url(/amazon/space/accent.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 115px;
+}
+#paint{
+    background-image: url(/amazon/space/paint.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45%;
+    height: 115px;
+}
+.space-name{
+    position:relative ;
+    top: 90px;
+    font-size: 14px;
+}
+.signin{
+    width: 320px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    left: 1110px;
+    bottom: 980px;
+
+}
+#sign-text{
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    left: 7px;
+    top: 12px;
+    margin-bottom: 15px;
+}
+#sign-button{
+    background-color: #FFD814;
+    width: 258px;
+    height: 32px;
+    border: none;
+    position: relative;
+    left: 30px;
+    top: 17px;
+    border-radius: 7px;
+}
+.bluebox{
+    width: 280px;
+    height: 250px;
+    background-color: black;
+    position: relative;
+    left: 1130px;
+    bottom: 960px;
+    background-image: url(/amazon/ship.jpg);
+}
+.back{
+    height: 49px;
+    background-color: #232f3ef3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.last{
+    height: 400px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.knowus{
+    width: 136px;
+    height: 318px;
+    position: relative;
+    /* left: 150px;*/
+    top: 45px; 
+    margin-right: 100px;
+
+}
+#knowus-head{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+#knowus-text{
+    font-size: 14px;
+    color: #DDDDDD;
+    font-weight: normal;
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    line-height: 28px;
+
+}
+.money{
+    width: 184px;
+    height: 318px;
+    position: relative;
+    top: 45px; 
+    margin-right: 100px;
+    /* bottom:0px; */
+
+}
+#money-head{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    /* left: 150px; */
+}
+#money-text{
+    font-size: 14px;
+    color: #DDDDDD;
+    font-weight: normal;
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    line-height: 28px;
+
+}
+.pay{
+    width: 242px;
+    height: 318px;
+    position: relative;
+    top: 45px; 
+    margin-right: 100px;
+    /* bottom:0px; */
+
+}
+#pay-head{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    /* left: 150px; */
+}
+#pay-text{
+    font-size: 14px;
+    color: #DDDDDD;
+    font-weight: normal;
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    line-height: 28px;
+
+}
+.help{
+    width: 157px;
+    height: 318px;
+    position: relative;
+    top: 45px; 
+    /* bottom:0px; */
+
+}
+#help-head{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    /* left: 150px; */
+}
+#help-text{
+    font-size: 14px;
+    color: #DDDDDD;
+    font-weight: normal;
+    list-style-type: none;
+    text-align: left;
+    display: block;
+    line-height: 28px;
+
+}
+/* .last-bar{
+    height: 68px;
+    width: 100%;
+    border-top: 1px solid grey;
+}
+
+#last-logo{
+    width: 90px;
+    height: 68px;
+    background-image: url(/amazon/amazon_logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
